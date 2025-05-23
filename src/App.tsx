@@ -1,19 +1,19 @@
 import { AboutSection } from "./components/AboutSection";
+import { CompanySection } from "./components/company/CompanySection";
 import { HeroSection } from "./components/hero/HeroSection";
 
-import { Companies } from "./components/Companies";
 import { ProjectSection } from "./components/ProjectSection";
 
 export default function App() {
   return (
-    <div className="max-w-6xl mx-auto">
+    <div className="max-w-6xl mx-auto p-3">
       {/* header section */}
       <HeroSection />
 
       {/* About */}
       <AboutSection />
       {/* Companies section */}
-      <Companies />
+      <CompanySection />
       {/* Projects */}
       <ProjectSection />
     </div>
