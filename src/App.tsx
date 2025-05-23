@@ -1,7 +1,13 @@
+import { Projects } from "./Projects";
 
 
 export default function App() {
   return (
-    <div>App</div>
+    <div>App
+
+
+      {/* Projects */}
+      <Projects />
+    </div>
   )
 }
