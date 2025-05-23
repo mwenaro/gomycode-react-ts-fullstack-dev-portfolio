@@ -1,7 +1,7 @@
 
 export function CompanyCard() {
   return (
-    <div className="bg-900 p-6 shadow-md w-full md:w-[480px]">
+    <div className="bg-900 p-6 shadow-md w-full md:w-[280px]">
       <h3 className="text-lime-400 text-xl font-semibold mb-2">lorem ipsum</h3>
       <p className="text-sm text-gray-300 mb-4"> Eum earum possimus qui est sunt possimus aut tempora aliquid ut
             veritatis architecto et voluptate enim id sint possimus.</p>

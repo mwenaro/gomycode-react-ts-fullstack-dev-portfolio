@@ -6,13 +6,13 @@ export function Companies() {
       {/* Title */}
       <div>
         <h2 className="text-lime-400 text-2xl font-semibold font-roboto mt-">
-          companies( )
+          companies<span className="text-white">()</span>
         </h2>
       {/* Companies cards */}
-      <div className="flex flex-row flex-wrap">
+      <div className="flex flex-row flex-wrap ml-30">
         
         {/*Left  Section */}
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col justify-center mr-20">
         {/* 1st company */}
         <CompanyCard />
 
