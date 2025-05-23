@@ -1,7 +1,12 @@
+import { HeroSection } from "./components/HeroSection"
+
 
 
 export default function App() {
   return (
-    <div>App</div>
+    <div>
+      {/* header section */}
+      <HeroSection/>
+    </div>
   )
 }
