@@ -1,9 +1,9 @@
 export function Hero() {
   return (
-    <section className=" m-4 flex flex-col md:flex-row justify-between items-center px-6 py-10 gap-x-8">
+    <section className=" w-full md:m-4 flex flex-col md:flex-row justify-between  px-2 md:px-6 py-10 gap-x-8">
       {/* Left Side Content */}
       <div className="mb-10 md:mb-0 md:w-1/2 text-center md:text-left">
-        <p className="text-xl font-semibold pb-2">Hello, i am</p>
+        <h3 className="text-xl font-semibold pb-2">Hello, i am</h3>
 
         <h1 className="text-[#70FF00] text-4xl md:text-5xl font-semibold">
           &lt;John <br /> Doe/&gt;
@@ -34,11 +34,11 @@ export function Hero() {
       </div>
 
       {/* Right Side Image */}
-      <div className="flex-1 flex justify-center md:justify-end">
+      <div className="  w-full flex-1 flex justify-center md:justify-end">
         <img
           src="/heroimages/heroimage.png"
           alt="Hero image"
-          className="w-100 h-100 object-cover "
+          className="w-full md:w-96 object-cover "
         />
       </div>
     </section>
