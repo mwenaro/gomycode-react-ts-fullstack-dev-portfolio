@@ -1,7 +1,12 @@
+import { AboutSection } from "./components/AboutSection";
 
 
 export default function App() {
   return (
-    <div>App</div>
+    <div>
+
+      {/* About */}
+      <AboutSection />
+    </div>
   )
 }
