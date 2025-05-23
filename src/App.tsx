@@ -1,7 +1,11 @@
+import { Companies } from "./components/Companies";
 
 
 export default function App() {
   return (
-    <div>App</div>
+    <div>
+      {/* Companies section */}
+      <Companies />
+    </div>
   )
 }
