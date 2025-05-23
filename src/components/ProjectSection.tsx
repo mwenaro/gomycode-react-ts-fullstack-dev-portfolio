@@ -1,4 +1,4 @@
-export function Projects() {
+export function ProjectSection() {
   const projects = [
     { id: 1, name: "Project 1", imageUrl: "./project1.png" },
     { id: 2, name: "Project 2", imageUrl: "./project2.png" },
