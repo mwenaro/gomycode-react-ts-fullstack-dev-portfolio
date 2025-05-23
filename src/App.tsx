@@ -1,18 +1,21 @@
-import { HeroSection } from "./components/HeroSection"
+import { AboutSection } from "./components/AboutSection";
+import { HeroSection } from "./components/HeroSection";
 
 import { Companies } from "./components/Companies";
-import { Projects } from "./Projects";
-
+import { ProjectSection } from "./components/ProjectSection";
 
 export default function App() {
   return (
-    <div className="max-w-[1000px] mx-auto">
+    <div className="max-w-6xl mx-auto">
       {/* header section */}
-      <HeroSection/>
+      <HeroSection />
+
+      {/* About */}
+      <AboutSection />
       {/* Companies section */}
       <Companies />
       {/* Projects */}
-      <Projects />
+      <ProjectSection />
     </div>
-  )
+  );
 }
