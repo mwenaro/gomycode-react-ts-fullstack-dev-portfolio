@@ -3,7 +3,7 @@ export function Hero() {
     <section className=" m-4 flex flex-col md:flex-row justify-between items-center px-6 py-10 gap-x-8">
       {/* Left Side Content */}
       <div className="mb-10 md:mb-0 md:w-1/2 text-center md:text-left">
-        <p className="text-xl font-semibold pb-2">Hello, i am</p>
+        <h3 className="text-xl font-semibold pb-2">Hello, i am</h3>
 
         <h1 className="text-[#70FF00] text-4xl md:text-5xl font-semibold">
           &lt;John <br /> Doe/&gt;
