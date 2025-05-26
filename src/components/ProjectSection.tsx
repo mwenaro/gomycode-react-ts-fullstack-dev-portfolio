@@ -8,7 +8,7 @@ export function ProjectSection() {
   ];
 
   return (
-    <div className="px-6 py-10 bg-[#272727] to-black text-white cursor-pointer">
+    <div className="px-6 py-10 bg-linear-to-r from-[#000000] via-[#272727] to-[#494949] text-white cursor-pointer">
       <h2 className="text-2xl font-bold text-[#70FF00] mb-10 px-10">
         projects<span className="text-white">()</span>
       </h2>
