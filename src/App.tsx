@@ -3,6 +3,7 @@ import { CompanySection } from "./components/company/CompanySection";
 import { HeroSection } from "./components/hero/HeroSection";
 
 import { ProjectSection } from "./components/ProjectSection";
+import { SkillsSection } from "./components/Skills";
 
 export default function App() {
   return (
@@ -14,6 +15,8 @@ export default function App() {
       <AboutSection />
       {/* Companies section */}
       <CompanySection />
+      {/* Skills section */}
+      <SkillsSection />
       {/* Projects */}
       <ProjectSection />
     </div>
