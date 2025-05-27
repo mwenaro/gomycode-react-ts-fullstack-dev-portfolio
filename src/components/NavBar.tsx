@@ -12,6 +12,9 @@ export function NavBar() {
             <a href="#about">About</a>
           </li>
           <li>
+            <a href="#companies">Companies</a>
+          </li>
+          <li>
             <a href="#skills"> Skills</a>
           </li>
           <li>
