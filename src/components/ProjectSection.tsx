@@ -8,12 +8,13 @@ export function ProjectSection() {
   ];
 
   return (
-    <div className="px-6 py-10 bg-linear-to-r from-[#000000] via-[#272727] to-[#494949] text-white cursor-pointer">
-      <h2 className="text-2xl font-bold text-[#70FF00] mb-10 px-10">
+    <div className="px-6 py-10 bg-linear-to-r from-[#000000] via-[#272727] to-[#494949] text-white cursor-pointer" id="project">
+      <h2 className="text-2xl font-bold text-[#70FF00] mb-10 text-center md:text-left px-4 md:px-10">
         projects<span className="text-white">()</span>
       </h2>
 
-      <div className="flex space-x-4 overflow-x-auto pb-2 scrollbar-hidden">
+            {/* Mobile grid and desktop horizontal scroll */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:flex md:space-x-4 md:overflow-x-auto gap-4 md:gap-0 pb-2 scrollbar-hidden">
         {projects.map((project) => (
           <div
             key={project.id}
